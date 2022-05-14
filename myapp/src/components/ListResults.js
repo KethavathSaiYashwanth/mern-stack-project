@@ -15,6 +15,11 @@ const ListResults = () => {
   return (
     <Fragment>
       <h1>List Results</h1>
+      <h2>
+        As the database didn't store the api's json file, it can't print
+        anything according to the keywords used here for example: result.name,
+        result.last, result.volume
+      </h2>
       <table class="table table-borderless text-center">
         <thead>
           <tr>
